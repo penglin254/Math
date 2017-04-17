@@ -49,7 +49,7 @@ var mathArr = {
 ~~~
 
 
-##关于 MathArr
+## 关于MathArr
 1.有问题请提交github issue上。<br>
 2.有什么好的建议或者改进可以联系作者。
 
