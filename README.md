@@ -48,3 +48,12 @@ var mathArr = {
 }
 ~~~
 
+
+##关于 MathArr
+1.有问题请提交github issue上。<br>
+2.有什么好的建议或者改进可以联系作者。
+
+## 联系方式
+wechat : 139193411<br>
+qq : [139193411](http://wpa.qq.com/msgrd?v=3&uin=139193411&site=qq&menu=yes)
+
