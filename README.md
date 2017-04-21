@@ -48,6 +48,29 @@ var mathArr = {
 }
 ~~~
 
+ch03
+===
+用js实现如下代码，给定一个只包含整数且长度为n的数组A，在A中是否能找到a，b，c3个数，使得a+b+c=0？如果能找到，则找到所有可能，如果没找到，则输出没有找到。
+
+code:</br>
+
+~~~
+var mathArr = {
+    zero: function (arr) {
+        var x;
+        for (var i = 0; i < arr.length - 2; i++) {
+            x = i;
+            for (var j = x - 1; j >= 0; j--) {
+                for (var k = x + 1; k < arr.length; k++) {
+                    if (arr[i] + arr[j] + arr[k] == 0) {
+                        console.log(arr[i], arr[j], arr[k])
+                    }
+                }
+            }
+        }
+    }
+}
+~~~
 
 ## 关于MathArr
 1.有问题请提交github issue上。<br>
